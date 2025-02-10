@@ -1,0 +1,2 @@
+# MongoDB Aggregation Pipeline Bug
+This repository demonstrates a common error in MongoDB aggregation pipelines, specifically related to the unexpected behavior when combining `$group`, `$sort`, and `$limit` stages without proper consideration of the order of operations. The bug results in an inaccurate top-N result set. The solution illustrates how to fix this error by adjusting the aggregation pipeline stages to ensure the correct order of operations.
